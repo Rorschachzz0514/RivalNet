@@ -7,8 +7,8 @@ the test predictions of all methods in the paper, and the exact evaluation code.
 
 ## Where to get the files
 
-The data are hosted separately from this repository (an anonymized link during review; a Zenodo record with a DOI after publication).
-Run `python scripts/download_data.py` from the repository root once the location is set; checksums are in `MD5SUMS`.
+The data are hosted separately from this repository at https://osf.io/nmd5x/overview?view_only=040742fe90034c9097abe380d4ebeedb (an anonymized link during review; a Zenodo record with a DOI will follow after publication).
+Two archives: `rivalbench_data.zip` (240 MB: papers, rivals, twins, in-corpus targets, predictions) and `rivalbench_embeddings.zip` (1.6 GB, optional). Run `python scripts/download_data.py` from the repository root, or download the archives manually, put them in `data/`, and run the script to unpack and verify them; checksums are in `MD5SUMS`.
 
 ## Task
 

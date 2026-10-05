@@ -14,11 +14,12 @@ New papers compete for attention: a paper's citations depend on the contemporari
 
 ## Data
 
-The data files (about 2 GB, of which 1.7 GB are optional SPECTER2 embeddings) are hosted separately; see [`data/README.md`](data/README.md).
+The data are hosted separately as two archives: `rivalbench_data.zip` (240 MB) and the optional `rivalbench_embeddings.zip` (1.6 GB, SPECTER2 embeddings); see [`data/README.md`](data/README.md).
+They can be browsed and downloaded at https://osf.io/nmd5x/overview?view_only=040742fe90034c9097abe380d4ebeedb.
 
 ```bash
-python scripts/download_data.py            # downloads into data/ and verifies checksums (data/MD5SUMS)
-python scripts/download_data.py --no-emb   # without the embeddings (about 270 MB)
+python scripts/download_data.py            # downloads both archives, unpacks them into data/, verifies checksums
+python scripts/download_data.py --no-emb   # without the embeddings
 ```
 
 The task, splits, columns, and caveats are documented in [`data/README.md`](data/README.md) and [`DATASHEET.md`](DATASHEET.md).
