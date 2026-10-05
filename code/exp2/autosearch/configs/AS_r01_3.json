@@ -1,0 +1,1 @@
+{"direct_log": true, "t6": true, "logshare": 1.0, "aux_w": 0.3, "n_self": 1, "heads": 4, "d": 256, "dropout": 0.2, "lr": 0.001, "wd": 0.0001, "bs": 3000, "patience": 5, "ema": 0.995, "rdrop": 0.0, "loss_fn": "mse"}

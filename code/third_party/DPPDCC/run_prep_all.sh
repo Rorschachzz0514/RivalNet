@@ -1,0 +1,9 @@
+#!/bin/bash
+cd /path/to/mpcc/third_party/DPPDCC
+export HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1
+PY=/path/to/envs/dppdcc/bin/python
+$PY -u prep_mpcc.py && $PY -u prep_mpcc2.py && \
+$PY -u data_processor.py --phase make_data_graph --data_source mpcc_ai --graph specter2 && echo "GRAPH OK" && \
+CUDA_VISIBLE_DEVICES=6 $PY -u main.py --phase get_model_graph_data --data_source mpcc_ai --model DDHGCNSCL --graph_type specter2 && echo "STEP1 OK" && \
+CUDA_VISIBLE_DEVICES=6 $PY -u main.py --phase get_model_graph_data --data_source mpcc_ai --model DPPDCC --graph_type specter2
+echo "EXIT=$?"

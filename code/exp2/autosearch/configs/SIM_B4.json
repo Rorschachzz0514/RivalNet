@@ -1,0 +1,1 @@
+{"direct_log": true, "t6": true, "logshare": 1.0, "aux_w": 1.0, "n_self": 1, "heads": 4, "d": 512, "dropout": 0.3, "lr": 0.0005, "wd": 0.001, "bs": 1500, "patience": 8, "ema": 0.0, "rdrop": 0.1, "loss_fn": "huber", "tdir": "_v6", "min_ep": 10, "sim_shift": true, "trainval": true, "fixed_ep": 13}

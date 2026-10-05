@@ -1,0 +1,11 @@
+{
+ "s20": {"t_max": 20, "swa_k": 5},
+ "s30": {"t_max": 30, "swa_k": 5},
+ "s30_lr1e3": {"t_max": 30, "swa_k": 5, "lr": 0.001},
+ "s30_rel": {"t_max": 30, "swa_k": 5, "rel_rival": true},
+ "s30_tcs": {"t_max": 30, "swa_k": 5, "two_chan": "strict"},
+ "s30_tcp": {"t_max": 30, "swa_k": 5, "two_chan": "plus"},
+ "s30_luce": {"t_max": 30, "swa_k": 5, "luce": true},
+ "s30_coh1": {"t_max": 30, "swa_k": 5, "cohort": 1},
+ "s30_xd3": {"t_max": 30, "swa_k": 5, "xdom": 3}
+}

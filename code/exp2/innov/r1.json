@@ -1,0 +1,9 @@
+{
+ "rel": {"rel_rival": true},
+ "tc_strict": {"two_chan": "strict"},
+ "tc_plus": {"two_chan": "plus"},
+ "luce": {"luce": true},
+ "coh1": {"cohort": 1},
+ "xd3": {"xdom": 3},
+ "all": {"rel_rival": true, "two_chan": "plus", "luce": true, "cohort": 1, "xdom": 3}
+}

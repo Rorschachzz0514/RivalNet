@@ -1,0 +1,10 @@
+# Data files are hosted separately (see data/README.md)
+data/*
+!data/README.md
+!data/MD5SUMS
+*.parquet
+*.npy
+*.pt
+*.duckdb
+__pycache__/
+.ipynb_checkpoints/
